@@ -107,6 +107,7 @@ Season,Team,Goals,Player,Minutes,Shots,Touches,Woodwork,Offsides,Dispossessions,
 13/14,Man City,17,Sergio Aguero,1539,86,868,2,18,49,11
 13/14,Tottenham,3,Harry Kane,499,28,266,0,5,9,8
 13/14,Everton,15,Romelu Lukaku,2602,101,1217,0,19,54,6
+13/14,Chelsea,2,Mohamed Salah,500,21,360,1,1,18,3
 
 14/15,Man City,26,Sergio Aguero,2539,148,1413,6,33,89,16
 14/15,Tottenham,21,Harry Kane,2581,112,1493,3,34,95,12
@@ -120,6 +121,7 @@ Season,Team,Goals,Player,Minutes,Shots,Touches,Woodwork,Offsides,Dispossessions,
 14/15,Leicester,5,Jamie Vardy,2245,48,876,1,32,21,9
 14/15,Arsenal,16,Alexis Sanchez,2949,121,2448,1,8,117,7
 14/15,Everton,10,Romelu Lukaku,2875,105,1418,2,36,81,12
+14/15,Chelsea,0,Mohamed Salah,30,2,35,0,0,3,0
 
 15/16,Tottenham,25,Harry Kane,3368,158,1683,7,30,93,18
 15/16,Man City,24,Sergio Aguero,2373,119,1261,4,27,101,16
@@ -140,6 +142,7 @@ Season,Team,Goals,Player,Minutes,Shots,Touches,Woodwork,Offsides,Dispossessions,
 16/17,Chelsea,20,Diego Costa,3089,111,1763,4,26,120,12
 16/17,Leicester,13,Jamie Vardy,2808,53,872,1,25,23,6
 
+17/18,Liverpool,32,Mohamed Salah,2921,144,1643,3,17,95,23
 17/18,Tottenham,30,Harry Kane,3083,184,1263,6,42,60,18
 17/18,Man City,21,Sergio Aguero,1969,94,1007,3,16,43,13
 17/18,Everton,10,Wayne Rooney,2282,45,1566,1,8,57,5
