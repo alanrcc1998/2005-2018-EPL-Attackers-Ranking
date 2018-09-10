@@ -8,8 +8,7 @@ gs = gs.set_index('Player')
 
 best = gs[['Goals','Minutes','Shots','Touches','Woodwork','Offsides','Dispossessions','BCM']]
 best = best.groupby('Player').agg({'Goals':np.sum, 'Minutes':np.sum, 'Shots':np.sum,'Touches':np.sum,'Woodwork':np.sum,'Offsides':np.sum,'Dispossessions':np.sum,'BCM':np.sum})
-best = best.drop('Cristiano Ronaldo')
-best = best.drop('Benni McCarthy')
+best = best[(best[['Minutes']] >=  9000).all(axis=1)]
 best['Shot Conversion'] = best['Goals']/best['Shots'] #higher=better
 best['BCM per Shot'] = best['BCM']/best['Shots'] #lower=better
 best['Mins per Shot'] = best['Minutes']/best['Shots'] #lower=better
@@ -59,16 +58,12 @@ player_index = (points['Mins per Goal']+points['Mins per Shot']+points['Shot Con
 player_index.iloc[:] = player_index.iloc[:]/player_index.max()
 player_index = player_index.sort_values(ascending=False).round(3)
 
-    
-##for i in player_index:
-    ##best = player_index.values.argmax()
-    ##print(best)
-    ##player_index.drop(best)
-print('\nBest PL forward in last 12 seasons:\n')
+
+print('\nBest EPL forward in last 12 seasons:\n')
 print(player_index.argmax())
 print('\n\nFull list:\n')
 print(player_index)
-print('\n\nList excludes:\n Cristiano Ronaldo, Benni McCarthy & Mo Salah - insufficient statistics\n Yaya Toure - center mid...not forward\n\n\n')
+print('\n\nRankings limited to only attackers with +9000 minute EPL playtime since 05/06 season\n\n\n')
         
     
 
