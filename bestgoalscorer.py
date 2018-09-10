@@ -63,7 +63,7 @@ print('\nBest EPL forward in last 12 seasons:\n')
 print(player_index.argmax())
 print('\n\nFull list:\n')
 print(player_index)
-print('\n\nRankings limited to only attackers with +9000 minute EPL playtime since 05/06 season\n\n\n')
+print('\n\nRankings limited to only attackers with +9000 minute EPL playtime since 06/07 season\n\n\n')
         
     
 
